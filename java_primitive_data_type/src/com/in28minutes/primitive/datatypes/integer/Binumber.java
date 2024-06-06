@@ -1,4 +1,4 @@
-package com.in28minutes.primitive.datatypes;
+package com.in28minutes.primitive.datatypes.integer;
 
 public class Binumber {
 
