@@ -1,4 +1,4 @@
-package com.in28minutes.loops;
+package com.in28minutes.typeOfloops;
 
 public class WhileNumberPlayer {
 
