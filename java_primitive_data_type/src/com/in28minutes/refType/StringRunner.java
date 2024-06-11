@@ -12,6 +12,18 @@ public class StringRunner {
 		for (String el : strArr) {
 			System.out.println(el);
 		}
+
+		StringBuffer sb = new StringBuffer("test");
+		// 결합
+		sb.append("123");
+		// 교체
+		sb.setCharAt(1, 'a');
+
+		StringBuilder sb2 = new StringBuilder("test2");
+		// 결합
+		sb2.append("123");
+		// 교체
+		sb2.setCharAt(1, 'a');
 	}
 
 }
