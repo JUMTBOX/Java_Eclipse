@@ -8,7 +8,7 @@ public class Student {
 	private String name;
 	private int[] marks;
 
-	Student(String name, int[] makrs) {
+	Student(String name, int... makrs) {
 		this.name = name;
 		this.marks = makrs;
 	}
