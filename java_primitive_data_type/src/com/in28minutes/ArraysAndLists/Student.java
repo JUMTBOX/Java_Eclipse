@@ -8,6 +8,7 @@ public class Student {
 	private String name;
 	private int[] marks;
 
+	/** RestParmeter usage */
 	Student(String name, int... makrs) {
 		this.name = name;
 		this.marks = makrs;
