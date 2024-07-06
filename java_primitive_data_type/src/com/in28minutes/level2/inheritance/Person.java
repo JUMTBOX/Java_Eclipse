@@ -31,7 +31,7 @@ public class Person {
 
 	@Override
 	public String toString() {
-		return "Person [name=" + name + ", email=" + email + ", phone=" + phone + "]";
+		return String.format("name: %s, email: %s,phone: %s", name, email, phone);
 	}
 
 }

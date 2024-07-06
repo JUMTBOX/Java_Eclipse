@@ -7,12 +7,13 @@ public class StudentRunner {
 
 		student.setName("yang");
 		student.setCollegeName("kookmin");
+		student.setEmail("yjey12@naver.com");
 		student.setPhone("5002");
 		student.setYear(15);
 
 		String value = student.toString();
 
-		System.out.println("???" + value);
+		System.out.println(value);
 	}
 
 }
