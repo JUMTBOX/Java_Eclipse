@@ -3,17 +3,14 @@ package com.in28minutes.level2.inheritance;
 public class StudentRunner {
 
 	public static void main(String[] args) {
-		Student student = new Student();
 
-		student.setName("yang");
-		student.setCollegeName("kookmin");
-		student.setEmail("yjey12@naver.com");
-		student.setPhone("5002");
-		student.setYear(15);
+		Employee employee = new Employee("yang", "web developer");
 
-		String value = student.toString();
+		employee.setEmployerName("conifer");
+		employee.setEmail("yjey12@naver.com");
+		employee.setPhone("5002");
 
-		System.out.println(value);
+		System.out.println(employee.toString());
 	}
 
 }

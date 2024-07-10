@@ -5,12 +5,12 @@ public class Person {
 	private String email;
 	private String phone;
 
-	public String getName() {
-		return name;
+	public Person(String name) {
+		this.name = name;
 	}
 
-	public void setName(String name) {
-		this.name = name;
+	public String getName() {
+		return name;
 	}
 
 	public String getEmail() {
@@ -31,7 +31,7 @@ public class Person {
 
 	@Override
 	public String toString() {
-		return String.format("name: %s, email: %s,phone: %s", name, email, phone);
+		return String.format("name: %s, email: %s, phone: %s", name, email, phone);
 	}
 
 }
